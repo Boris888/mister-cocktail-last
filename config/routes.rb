@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'cocktails#index'
   get 'doses/new' => 'dose#new'
 
   get 'doses/create' => 'dose#create'
